@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+}
+
+.solucoes{
+    margin-bottom: 100px;
+}
+
+.title_solucoes{
+    padding: 0 70px 70px 70px;
+}
+
+.title_solucoes p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #039be5;
+}
+
+.title_solucoes span{
+    font-size: 45px;
+    font-weight: bold;
+    color: #000;
+}
+
+.cardssolucoes{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.card1{
+    display: flex;
+    flex-direction: row;
+    width: 1100px;
+    height: 370px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2.5px solid #ff4d00;
+    padding: 30px;
+}
+
+.card2{
+    display: flex;
+    flex-direction: row;
+    width: 1100px;
+    height: 370px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2.5px solid #D065E1;
+}
+
+.card3{
+    display: flex;
+    flex-direction: row;
+    width: 1100px;
+    height: 370px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2.5px solid #0EAFF4;
+}
+
+.card4{
+    display: flex;
+    flex-direction: row;
+    width: 1100px;
+    height: 370px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2.5px solid #0DDA77;
+}
+
+.card5{
+    display: flex;
+    flex-direction: row;
+    width: 1100px;
+    height: 370px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2.5px solid #FFC700;
+}
+
+.img img{
+    width: 216px;
+    height: 216px;
+
+    display: flex;
+   
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+
+    padding: 40px;
+}
+
+.titleInfo{
+    font-size: 35px;
+    font-weight: bold;
+
+    padding: 20px 20px 20px 0px;
+}
+
+.txtInfo{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+
+    width: 725px;
+}
+
+.local{
+    font-size: 17px;
+    font-weight: 900;
+    padding-top: 5px;
+}
+
+.card1 .local{
+    color: #A83200;
+}
+
+.card2 .local{
+    color: #793A83;
+}
+
+.card3 .local{
+    color: #066289;
+}
+
+.card4 .local{
+    color: #008947;
+}
+
+.card5 .local{
+    color: #9D7B00;
+}
+
+.contatos{
+    padding-top: 15px;
+
+    display: flex;
+    gap: 40px;
+}
+
+.card1 .img img{
+    width: 216px;
+    height: 216px;
+}
+
+.card2 .img img{
+    width: 216px;
+    height: 190px;
+}
+
+.card3 .img img{
+    width: 200px;
+    height: 200px;
+}
+
+.card4 .img img{
+    width: 200px;
+    height: 200px;
+}
+
+.card5 .img img{
+    width: 180px;
+    height: 216px;
+}

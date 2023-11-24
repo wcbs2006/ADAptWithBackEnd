@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.img_censo{
+    background-image: url('../assets/img/Rectangle2.png');
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px 75px 25px 75px;
+}
+
+.txt_censo{
+    background-color:rgba(78, 255, 149, 0.744);
+    width: 55%;
+    display: flex;
+    margin-right: 540px;
+    border-radius: 75px 25px 75px 75px;
+
+    flex-direction: column;
+
+    padding: 105px 90px;
+}
+
+.title{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.txt_censo .txt{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+.title_solucoes{
+    padding: 70px;
+}
+
+.title_solucoes p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #039be5;
+}
+
+.title_solucoes span{
+    font-size: 45px;
+    font-weight: bold;
+    color: #000;
+}
+
+.cards_solucoes{
+    display: flex;
+    flex-direction: row;
+
+    gap: 29px;
+
+    justify-content: center;
+}
+
+.card_1{
+    width: 365px;
+    height: 365px;
+    border: 2.5px solid #FF4D00;
+    border-radius: 20px;
+    padding: 43px;
+}
+
+.card_2{
+    width: 365px;
+    height: 365px;
+    border: 2.5px solid #D065E1;
+    border-radius: 20px;
+    padding: 43px;
+}
+
+.card_3{
+    width: 365px;
+    height: 365px;
+    border: 2.5px solid #0EAFF4;
+    border-radius: 20px;
+    padding: 43px;
+}
+
+.img{
+    width: 73px;
+    height: 73px;
+}
+
+.title p{
+    font-size: 27px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.txt p{
+    font-size: 17px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+.local p{
+    font-size: 15px;
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+.card_1 .local p{
+    color: #A83200;
+}
+
+.card_2 .local p{
+    color: #793A83;
+}
+
+.card_3 .local p{
+    color: #066289;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.btn_solucoes{
+    width: 300px;
+    height: 60px;
+
+    background-color: #000;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.btn_solucoes a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.vejat{
+    background-color: #F1F5F6;
+    max-height: 400px;
+
+    padding-bottom: 60px;
+    margin-bottom: 100px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+    padding-top: 0;
+}
+
+.num{
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    border: 3px solid #DBAB00;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.num p{
+    font-size: 40px;
+    font-weight: bold;
+    color: #483800;
+}
+
+.txt_info p{
+    font-size: 20px;
+    font-weight: 400;
+
+    width: 645px;
+}
+
+.vejat .title_solucoes{
+    padding-top: 40px;
+
+    padding-bottom: 30px;
+}
+
+
+
