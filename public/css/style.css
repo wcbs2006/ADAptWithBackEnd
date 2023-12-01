@@ -10,12 +10,21 @@ body{
     font-family: 'Overpass', sans-serif;
 }
 
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 100px;
+}
+
 .sobre{
     display: flex;
     flex-direction: row;
     padding: 100px;
 
     justify-content: center;
+
 }
 
 .texts{
@@ -116,9 +125,9 @@ body{
 }
 
 .txt{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
-    padding: 0 40px;
+    padding: 0;
     text-align: justify;
 }
 

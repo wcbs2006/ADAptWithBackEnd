@@ -1,0 +1,44 @@
+.nav {
+  display: flex;
+  justify-content: center;
+}
+  
+.nav img {
+  width: 150px;
+  height: 150px;
+}
+  
+.nav .container {
+  display: flex;
+  justify-content: center;
+  gap: 500px;
+  align-items: center;
+  padding: 20px 0;
+  transition: all 0.3s ease-in-out;
+  width: 100% ;
+  height: 100px;
+}
+  
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: auto;
+  justify-content: end;
+  width: 500px;
+}
+  
+li {
+  padding: 10px;
+}
+  
+.login {
+  padding: 2px 30px;
+  border-radius: 30px;
+  background-color: #4EFF95;
+}
+  
+.nav a {
+  color: #000;
+  text-decoration: none;
+  font-size: bold;
+}
