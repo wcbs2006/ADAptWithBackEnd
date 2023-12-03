@@ -1,71 +1,111 @@
-<div class="sobre">
-            <div class="texts">
-                <div class="title_sobre">
-                    <h1>Conheça nossa empressa:</h1>
-                </div>
-                <div class="txt_sobre">
-                    <p>    Lorem  ipsum  dolor  sit amet,  consectetur adipiscing elit, s ed do eiusmod tempor incididunt ut labore. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo con.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id.</p><br>
-                <p>     Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, voluptatibus neque blanditiis ea ullam illum quam quo odit modi excepturi! Numquam veritatis enim a nobis error quisquam recusandae, totam incidunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tempora facilis ex velit consectetur vero at adipisci consequatur itaque, nemo fugiat iure reprehenderit libero accusantium. Atque dolorem maiores libero sed?</p>
-                </div>
-            </div>
-            <div class="img_sobre">
-                <img src="/assets/img/img_sobre.png" alt="">
-            </div>
+
+<main>
+<section class="section-container">
+  <div class="container-img-p">
+      <img class="img-p" src="/assets/img/Rectangle 2.png" alt="Sua Imagem">
+      <div class="text-box">
+          <h2>Conheça-nos</h2>
+          <p>O ADApt é capaz de fornecer propostas de intervenções acerca de melhoria de acessibilidade para as pessoas com deficiência, e propiciar o censo atualizado referente às pessoas com deficiência em Jaraguá do Sul, cidade de Santa Catarina.</p>
+          <button>Saiba mais</button>
+      </div>
+    </div>
+  
+    <div class="titulo">
+      <h1>Titulo Titulo Titulo</h1>
+    </div>
+  
+    <section class="container-pcd">
+      <div class="caixa">
+        <img class="img-pcd" src="/assets/img/fisico.png" alt="Sua Imagem">
+        <h3>Texto</h3>
+      </div>
+  
+      <div class="caixa">
+        <img class="img-pcd" src="/assets/img/visual.png" alt="Sua Imagem">
+        <h3>Texto</h3>
+      </div>
+  
+      <div class="caixa">
+        <img class="img-pcd" src="/assets/img/auditivo.png" alt="Sua Imagem">
+        <h3>Texto</h3>
+      </div>
+  
+      <div class="caixa">
+        <img class="img-pcd" src="/assets/img/intelectual.png " alt="">
+        <h3>Texto</h3>
+      </div>
+
+  {{!-- <div class="box-3">
+    <img
+      src="/assets/img/cat01.jpg"
+      alt=""
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    />
+    <img src="/assets/img/cat02.jpg" alt="" />
+    <img src="/assets/img/cat05.jpg" alt="" />
+  </div>
+  <div class="box-2">
+    <img src="/assets/img/cat11.jpg" alt="" />
+    <img src="/assets/img/cat08.jpg" alt="" />
+  </div>
+  <div class="box-1">
+    <img src="/assets/img/cat04.jpg" alt="" />
+  </div>
+  <div class="box-3">
+    <img src="/assets/img/cat12.jpg" alt="" />
+    <img src="/assets/img/cat09.jpg" alt="" />
+    <img src="/assets/img/cat06.jpg" alt="" />
+  </div>
+  <div class="box-2">
+    <img src="/assets/img/cat03.jpg" alt="" />
+    <img src="/assets/img/cat13.jpg" alt="" />
+  </div>
+  <div class="box-1">
+    <img src="/assets/img/cat07.jpg" alt="" />
+  </div> --}}
+</section>
+</main>
+
+
+{{!-- <div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+      <div class="modal-body img-container">
+        <img src="/assets/img/cat01.jpg" alt="" />
+      </div>
+      <form method="post" id="interactionForm">
+        <div class="barra-interacao">
+          <button type="button" class="btn btn-outline-danger">❤</button>
+          <input
+            type="text"
+            name="comment"
+            class="input-comentario"
+            placeholder="Escreva um comentário..."
+          />
+          <button type="submit">Enviar</button>
         </div>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
 
-        <div class="servicos">
-            <div class="title_servicos">
-                <p>NOSSOS SERVIÇOS</h1>
-            </div>
-            <div class="cards">
-                <div class="linha1">
-                    <div class="card_1">
-                        <div class="title_card">
-                            <img src="/assets/img/Vector.svg" alt="">
-                            <h3>CADASTRO PERSONALIZADO</h3>
-                        </div>
-                        <div class="txt">
-                            Cadastro adaptado a todos os usuários. Personalizado de acordo com suas necessidades.
-                        </div>
-                    </div>
-    
-                    <div class="card_2">
-                        <div class="title_card">
-                            <img src="assets/icons/undefined.svg" alt="">
-                            <h3>EXPANÇÃO DE APOIO AO PCD</h3>
-                        </div>
-                        <div class="txt">
-                            Divulgação de Associações de apoio às Pessoas Com Deficiência (PCD).
-                        </div>
-                    </div>
-                </div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Seletor do botão de curtir
+        var likeButton = document.querySelector('.btn-outline-danger');
 
-                <div class="linha2">
-                    <div class="card_3">
-                        <div class="title_card">
-                            <img src="assets/icons/censo.svg" alt="">
-                            <h3>CENSO ATUALIZADO</h3>
-                        </div>
-                        <div class="txt">
-                            Atualizar o censo de pessoas com deficiência na cidade Jaraguá do Sul automaticamente.
-                        </div>
-                    </div>
-    
-                    <div class="card_4">
-                        <div class="title_card">
-                            <img src="assets/icons/solucoes.svg" alt="">
-                            <h3>SOLUÇÕES</h3>
-                        </div>
-                        <div class="txt">
-                            Expandi soluções das associações de apoio ao PCD. Mostrando aos usuários os locais adaptados às suas necessidades.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <button><a href="./pages/censo.html">CENSO</a></button>
-
-        <button><a href="./pages/contato.html">CONTATO</a></button>
+        // Adiciona um ouvinte de eventos ao botão de curtir
+        likeButton.addEventListener('click', function () {
+            // Alterna a classe 'btn-danger' no botão
+            likeButton.classList.toggle('btn-danger');
+        });
+    });
+</script> --}}
